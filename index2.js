@@ -6,6 +6,13 @@ const connection = new Sequelize("master32", "root", "password", {
 
 });
 
+const Test = connection.define("tests",
+{
+    name:{
+        type: DataTypes.STRING
+    }
+})
+
 const main = async() => {
     try {
         await connection.authenticate();
