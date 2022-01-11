@@ -1,1 +1,2 @@
 # cleverCloud_setup
+# usingSequelize
